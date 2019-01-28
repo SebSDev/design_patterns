@@ -7,7 +7,7 @@ package prg.design_patterns.proxy;
  */
 public class Proxy implements Information
 {
-    KlasseMitGeheimerInformation realSubject;
+    private KlasseMitGeheimerInformation realSubject;
 
     public Proxy()
     {
